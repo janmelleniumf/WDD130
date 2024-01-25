@@ -27,7 +27,9 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-
+main p {
+    margin-left: 25px;
+}
 p {
     padding: 0px;
 }
