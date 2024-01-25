@@ -36,16 +36,16 @@ main {
     max-width: 840px;
 }
 
-aside {
-    width: 20rem;
-    text-align: center;
-    position: relative;
-}
-
 aside h2 {
     position: absolute;
     top: 40px;
     left: 80px;
+}
+
+aside {
+    width: 20rem;
+    text-align: center;
+    position: relative;
 }
 
 aside img {
