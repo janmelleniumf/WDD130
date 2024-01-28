@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Teko:wght@300..700&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #0f5866   ;
+    --secondary-color: #7fffd4 ;
+    --accent1-color: #000000;
+    --accent2-color: #ffffff;
+  }
+
+h2 {
+    color: steelblue;
+    
+  }
+p {
+    background-color: #ffffff;
+    font-style: oblique;
+  }
+
+.sociallinks {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    background-color: #0f5866;
+  }
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 4em;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+.hero {
+    position: relative;
+  }
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    background-color: #0f5866;
+    color: #ffffff;
+    width:10in;
+
+  }
+
+.hero article{
+    position: absolute;
+    top: 275px;
+    left: 48%;
+    background-color: steelblue;
+    width: 500px;
+    opacity: 0.9;
+
+
+  }
+.hero article p {
+    font-weight: bolder;
+    text-align: left;
+}
+.hero article img {
+    float: right;
+    width: 150px;
+    height: auto;
+    border: 5px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(3, 3, 3);
+    }
