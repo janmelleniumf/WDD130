@@ -137,12 +137,13 @@ footer {
 .sociallinks {
   list-style-type: none;
   display: inline;
-  background-color: #80e9f7;
+  background-color: #6ee3f3;
   opacity: 0.9;
 
 }
 .sociallinks img {
   margin-top: 15px;
+  margin-bottom: 15px;
   width: 35px;
   height: auto;
   
