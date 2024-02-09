@@ -31,6 +31,7 @@ input[type="number"] {
 }
 select {
     height: 40px;
+    width: 445px;
 }
 button {
     background-color: #007bff;
