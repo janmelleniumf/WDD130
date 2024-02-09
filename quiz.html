@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Home | Quiz Form</title>
+    <meta name="description" content="This is a sample of a quiz form.">
+    <meta name="author" content="Jan Mellenium Francisco">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <main>
+        <h1>WDD 130 | HTML/CSS Quiz Form</h1>
+        <div class="quiz-form"></div>
+            <form>
+                <fieldset>
+                    <legend>Your Name</legend>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="fullname" id="fullname">
+                </fieldset>
+                <fieldset>
+                    <legend>Quiz Board</legend>
+                    <!--Question number 1 (Text)-->
+                    <label for="q1">1. In HTML we use _____ tag to get Bold Text ?</label>
+                    <input type="text" name="q1" id="q1">
+                    
+                    <!--Question number 2 (TextArea)-->
+                    <label for="q2">2. What is the meaning of CSS and HTML?</label>
+                    <textarea id="q2" name="q2" rows="4" placeholder="Your answer..." required></textarea>
+                    
+                    <!--Question number 3 (Select)-->
+                    <label for="q3">3. Who invented HTML?</label>
+                    <select id="q3" name="q3">
+                    <option value="">--Please choose an option--</option>
+                    <option value="timothy">Sir Timothy John Berners-Lee</option>
+                    <option value="elon">Elon Musk</option>
+                    <option value="mark">Mark Zuckerberg</option>
+                    </select>
+
+                    <!--Question number 4 (Text)-->
+                    <label for="q4">4. What is the base size of type in the browser (number only)?
+                    <input type="number" id="q4" name="q4" placeholder="Your answer..." required>
+                
+
+                    <!-- Submit button -->
+                    <button type="submit">Submit quiz</button>
+
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
