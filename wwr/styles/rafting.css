@@ -90,7 +90,6 @@ footer {
   background-color: #0f5866;
   color: #ffffff;
   width: 1200px;
-
 }
 
 .hero article {
@@ -100,8 +99,6 @@ footer {
   background-color: steelblue;
   width: 493px;
   opacity: 0.9;
-
-
 }
 
 .hero article p {
@@ -186,8 +183,6 @@ margin: 50px;
 
 /* Contact section */
 .contact-section {
-  /* display: flex;
-  justify-content: space-between; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
