@@ -70,13 +70,15 @@
                     <input type="text" name="fullname" id="name" placeholder="Full Name" required>
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" placeholder="Email" required>
-                    <label for="purpose">Purpose</label>
-                    <select name="purpose" id="purpose">
-                        <option value="">-- Please choose an option --</option>
-                        <option value="inquiry">General Inquiry</option>
-                        <option value="reservation">Reservation Question</option>
-                        <option value="suggestions">Website Suggestion</option>
-                    </select>
+                    <label>Purpose</label>
+                    <div class="purpose">
+                        <input type="radio" id="generalInquiry" name="contactType" value="General Inquiry">
+                        <label for="generalInquiry">General Inquiry</label><br>
+                        <input type="radio" id="reservationQuestion" name="contactType" value="Reservation Question">
+                        <label for="reservationQuestion">Reservation Question</label><br>
+                        <input type="radio" id="websiteSuggestion" name="contactType" value="Website Suggestion">
+                        <label for="websiteSuggestion">Website Suggestion</label><br>
+                    </div>
 
                     <textarea name="message" rows="4" placeholder="Your message" required></textarea>
                     

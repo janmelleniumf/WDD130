@@ -296,3 +296,18 @@ input[type="checkbox"] {
   align-self: center;
   padding: 2em;
 }
+
+.purpose {
+ display: flex;
+}
+
+input [type="radio"] {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  
+}
+
+textarea {
+  margin-top: 15px;
+}
