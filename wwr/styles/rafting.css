@@ -72,21 +72,21 @@ footer {
   text-align: center;
 }
 
-.hero, .hero1{
+.hero, .hero1, .hero2{
   position: relative;
 }
 
-.hero img , .hero1 img {
+.hero img , .hero1 img, .hero2 img{
   display: block;
   width: 100%;
   height: auto;
 }
 
-.hero1 img {
+.hero1 img, .hero2 img{
   opacity: 0.5;
 }
 
-.hero h1, .hero1 h1{
+.hero h1, .hero1 h1, .hero2 h1{
   position: absolute;
   top: 20px;
   left: 0;
@@ -116,6 +116,22 @@ footer {
   color: var(--accent1-color);
 }
 
+.click {
+  position: absolute;
+  top: 520px;
+  left: 0;
+  font-size: 14px;
+  padding: 10px;
+  background-color: rgba(147, 138, 138, 0.5);
+  color: black;
+}
+.click a{
+  text-decoration: none;
+  color: var(--accent1-color);
+
+}
+
+
 .hero1 article {
   position: absolute;
   top: 75px;
@@ -130,6 +146,24 @@ footer {
   font-weight: bolder;
   text-align: left;
   font-size: 25px;
+}
+
+.hero2 article {
+  position: absolute;
+  top: 30%;
+  left: 32%;
+  width: 450px;
+  text-align: center;
+  font-size: 25px;
+}
+  
+
+.hero2 article p {
+  text-align: left;
+  font-size: 25px;
+  text-align: center;
+  background-color: rgba(147, 138, 138, 0.5);
+  color: black;
 }
 
 .hero article img {
@@ -149,7 +183,7 @@ footer {
   margin-left: 25px;
 }
 
-.history img {
+.history img, .purpose1 img, .offer img{
   float: left;
   width: 200px;
   border: 1px solid steelblue;
@@ -158,11 +192,16 @@ footer {
   margin-right: 20px;
 }
 
-.history p {
+.offer img {
+  float: right;
+}
+
+
+.history p, .purpose1 p {
   text-align: left;
 }
 
-.history h2 {
+.history h2, .purpose1 h2 {
   text-align: left;
   text-decoration: underline;
 
@@ -170,7 +209,7 @@ footer {
 
 .image-container {
   display: grid;
-  grid-template-columns: repeat(4, 100fr);
+  grid-template-columns: repeat(5, 100fr);
   border: 1px solid steelblue;
   padding: 5px;
   text-align: center;
@@ -353,6 +392,12 @@ input[type="checkbox"] {
   padding: 2em;
 }
 
+.offer {
+  max-width: 50%;
+  padding: 2em;
+  align-self: center
+}
+
 .purpose {
  display: flex;
 }
@@ -387,4 +432,9 @@ textarea {
   color: #000;
   opacity: 0.5;
 
+}
+
+.pur-off{
+  margin-bottom: 100px;
+  border: #000;
 }
